@@ -1,0 +1,21 @@
+name: RAG_ARCHITECTURE
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - nltk
+  - scikit-learn
+  - sentence-transformers
+  - numpy
+  - jupyter
+  - spacy
+  - pip
+  - pip:
+      - openai
+      - pinecone-client
+      - nemoguardrails
+      - datasets
+      - python-dotenv
+      - langchain
+      - pypdf

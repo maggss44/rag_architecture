@@ -1,0 +1,6 @@
+# Ignorar todos los archivos que terminan en .env
+*.env
+*.pdf
+*.docx
+*.doc
+

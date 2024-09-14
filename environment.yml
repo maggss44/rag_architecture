@@ -9,13 +9,12 @@ dependencies:
   - sentence-transformers
   - numpy
   - jupyter
-  - spacy
+  - python-dotenv
   - pip
   - pip:
       - openai
       - pinecone-client
       - nemoguardrails
       - datasets
-      - python-dotenv
       - langchain
       - pypdf
